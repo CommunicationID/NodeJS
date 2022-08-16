@@ -11,7 +11,5 @@ app.get('/', (req,res) => {
     res.send(`${welcomeText}`)
 });
 
-
-
 let portVal = process.env.PORT; 
 app.listen(portVal,()=> console.log(`Server started at ${portVal}`)); 
